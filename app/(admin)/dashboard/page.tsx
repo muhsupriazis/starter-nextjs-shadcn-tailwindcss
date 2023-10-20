@@ -1,7 +1,7 @@
 export default function DashboardPage() {
   return (
-    <main>
-      <h1>Dashboard Page</h1>
+    <main className="min-h-screen flex justify-center items-center">
+      <p className="text-center">Dashboard: Application under <span className="font-semibold">development</span></p>
     </main>
   );
 }
